@@ -1,0 +1,229 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    
+    font-family: cursive;
+    background-image: url("../imagens/lua.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+ 
+}
+
+
+a{
+    text-decoration: none;
+}
+
+section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 25px;
+    border: 3px solid rgb(36, 35, 36);
+}
+
+header {
+    
+    padding-top: 1em;
+    padding-bottom: 1em;
+    position: fixed;
+    width: 100%;
+    height: 3em;
+    background-color: rgb(15, 15, 15);
+    
+}
+
+header ul{
+    text-align: center;
+}
+
+header li a {
+    font-weight: lighter;
+    text-transform: uppercase;
+    border-left: 2px rgb(231, 14, 14);
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 3em;
+}
+
+#contato li {
+    display: inline-block;
+    margin: 1em;
+}
+
+#contato li a{
+    display: inline-block;
+    margin: 1em;
+    width: 48px;
+    height: 48px;
+    text-indent: -9999px;
+}
+
+#contato h3{
+    color: rgb(255, 8, 8);
+    
+
+}
+
+#contato .email {
+    background-image: url("../imagens/email.png");
+}
+
+#contato .face {
+    background-image: url("../imagens/face.png");
+}
+
+#contato .twitter {
+    background-image: url("..//imagens/twitter.png");
+}
+
+#contato .github {
+    background-image: url("../imagens/github.png");
+}
+
+#contato .linkedin {
+    background-image: url("../imagens/linkedin.png");
+}
+
+.container {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.identificacao {
+    
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 7em 7em 2em;
+}
+
+.identificacao h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.7em;
+}
+
+.identificacao h2 {
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.sombra {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(230, 3, 15);
+    text-shadow: 0 0 20px #fefcc9, 10px -10px 30px #feec85, -20px -20px 40px #ffae34;
+
+}
+
+section h3 {
+    font-size: 1.7em;
+    margin-bottom: 0.5em;
+    
+
+}
+
+header li a {
+    color: rgb(230, 19, 19);
+    font-weight: lighter;
+    text-shadow: 0px 2px 3px #666;
+}
+
+.escuras {
+  
+    color: rgb(233, 17, 17);
+    
+    background-size: 100%;
+    background-attachment: fixed;
+    padding: 1em 2em 1em;
+}
+
+.claras {
+    color: rgb(5, 165, 27);
+}
+
+.projetos-header{
+    float: left;
+    width: 30%;
+}
+
+.projetos-header h3 {
+    margin-top: 1em;
+    color: rgb(228, 13, 13);
+}
+
+.projetos-header p {
+    color: rgb(245, 8, 8);
+}
+
+.styleprojetos{
+    margin-left: 40%;
+}
+
+.styleprojetos li {
+    background-color: #29c966;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 15px;
+    border: 3px solid;
+    background-image: url("../imagens/chuva.gif");
+}
+
+.styleprojetos li a {
+    color: #d11818;
+    font-size: 1.3em;
+}
+
+.styleprojetos li p {
+    
+    margin-top: 0.5em;
+    text-align: justify;
+    line-height: 1.2;
+    color: rgb(255, 0, 0);
+}
+
+#sobre p.text {
+    margin: 1em;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.4;
+}
+
+#sobre p.bio {
+    color: rgb(235, 17, 17);
+    font-size: 1.5em;
+    font-style: italic;
+    margin: 1em;
+    width: 50%;
+}
+
+#sobre {
+    position: relative;
+    
+}
+
+#texto {
+    border: solid 2px rgb(41, 40, 40);
+}
+
+#sobre img {
+    width: 160px;
+    position: absolute;
+    top: 2.10em;
+    right: 10%;
+}
+
+footer {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: rgb(14, 13, 13);
+}
